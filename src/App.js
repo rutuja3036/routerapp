@@ -4,6 +4,7 @@ import { Header } from './components/Header';
 import About from "./pages/About";
 
 import Home from "./pages/Home";
+import NotFound from "./pages/NotFound";
 import Profile from "./pages/Profile";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <Route path ='/Home' component = {Home }/>
     <Route path ='/About'component = {About}/>
     <Route path = '/Profile'component = {Profile }/>
+    <Route component = {NotFound} />
  </BrowserRouter>
   );
     
